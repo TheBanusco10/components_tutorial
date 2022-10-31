@@ -14,6 +14,20 @@ class CardScreen extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
           children: const [
             CustomCard(),
+            SizedBox(height: 30),
+            CustomCard2(
+              imageUrl: 'https://images.wallpapersden.com/image/download/batman-with-vignette_bWdqaGWUmZqaraWkpJRnamtlrWZpaWU.jpg',
+              text: 'Batman forever',
+            ),
+            SizedBox(height: 30),
+            CustomCard2(
+              imageUrl: 'https://images.wallpapersden.com/image/download/batman-with-vignette_bWdqaGWUmZqaraWkpJRnamtlrWZpaWU.jpg',
+              text: 'Batman forever',
+            ),
+            SizedBox(height: 30),
+            CustomCard2(
+              imageUrl: 'https://images.wallpapersden.com/image/download/batman-with-vignette_bWdqaGWUmZqaraWkpJRnamtlrWZpaWU.jpg',
+            ),
           ],
         ));
   }

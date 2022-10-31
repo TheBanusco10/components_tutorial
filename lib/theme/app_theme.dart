@@ -13,5 +13,17 @@ class AppTheme {
     listTileTheme: const ListTileThemeData(
       iconColor: primaryColor
     ),
+
+    floatingActionButtonTheme: const FloatingActionButtonThemeData(
+      backgroundColor: primaryColor
+    ),
+
+    elevatedButtonTheme: ElevatedButtonThemeData(
+      style: ElevatedButton.styleFrom(
+          backgroundColor: primaryColor,
+          shape: const StadiumBorder(),
+          elevation: 5
+      ),
+    )
   );
 }
